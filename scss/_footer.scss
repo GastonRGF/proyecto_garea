@@ -1,0 +1,31 @@
+@mixin rede($grid){
+    width: 30px;
+    grid-area:$grid;
+    border-radius: 20%; 
+}
+@each $var in list {
+    
+}
+.footer{
+    width:$widht-400;
+    height: 20%;
+    background-color: black;
+    #redes{
+        text-align: center;
+        font-family: 'Noto Serif', serif;  
+    }
+    .redesSociales{
+            .whatsapp{
+                @include redes(whatsapp);
+            }
+            .facebook{
+                @include redes(facebook);
+            }
+            .instagram{
+                @include redes(instagram);
+            }
+            .twitter{
+                @include redes(twitter);
+            }
+    }
+}

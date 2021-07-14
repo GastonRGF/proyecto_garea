@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--icono de la mi titulo-->
+  <link rel="icon" type="image/png" href="../imagenes/img_empresa/moto.svg">
+  <!--icono de la mi titulo-->
+  <script src="https://kit.fontawesome.com/c0fa6a57a5.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../micss/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+  <title>Contacto</title>
+</head>
+
+<body class="paginaContacto">
+  <header>
+    <!--Inicio de menu por boostrap-->
+    <section class="tituloEmpresa">
+      <h1><strong>Ranger Motorcycle Parts</strong></h1>
+      <img class="imagenLogo" src="../imagenes/img_empresa/logo_empresa.gif" alt="ranger_motos" id="arriba">
+    </section>
+    <div class="redesSociales"> 
+      <a  class="whatsapp" href="https://www.whatsapp.com/" target="_blank"><img  class="whatsapp" src="../imagenes/img_redes/whatsapp.svg" alt="whatsapp-contacto-ranger"></a>
+      <img class="facebook" src="../imagenes/img_redes/facebook.svg" alt="facebook-contacto-ranger">
+      <img  class="instagram" src="../imagenes/img_redes/instagram.svg" alt="instagram-contacto-ranger"></a>
+      <a  class="twitter" href="https://twitter.com/?lang=es" target="_blank" ><img  class="twitter" src="../imagenes/img_redes/twitter.svg"  alt="twitter-contacto-ranger"></a>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-" id="barra">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><img src="../imagenes//img_empresa/logo_empresa.gif" alt="" width="30"
+            height="24" class="d-inline-block align-text-top"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"></button>
+        <span class="navbar-toggler-icon"></span>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="../paginas/quienessomos.html">Empresa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="../paginas/seguimiento.html">Seguimiento</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="../paginas/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" target="_blank" href="../paginas/repuestos.html"
+                id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Tienda</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="../paginas/repuestos.html">Catalogo</a></li>
+                <li><a class="dropdown-item" href="../paginas/repuestos.html">Busqueda</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+<!--Fin de menu por boostrap -->
+
+  <section>
+    <h2 class="caja-contacto">CONTACTENOS PARA MAS INFO!</h2>
+  </section>
+  <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal"
+    data-bs-whatever="@mdo">Deje su Consulta</button>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Complete sus datos!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">Nombre:</label>
+              <input type="text" class="form-control" id="recipient-name" required>
+            </div>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">Email:</label>
+              <input type="text" class="form-control" id="recipient-name" required>
+            </div>
+            <div class="mb-3">
+              <label for="message-text" class="col-form-label">Consulta:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+            <div>
+              <label class="newsLetter" for="newsletter ">Quiere recibir novedades sobre Ranger</label>
+              <input type="checkbox" required name="newsletter">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-warning" data-bs-dismiss="modal"><input type="submit"></button>
+          <button type="button" class="btn btn-primary"><input type="reset"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <footer>
+    <div class="card border-dark" style="width: 18rem;">
+      <div class="card-body btn-warning">
+          <h5 class="card-title">Nuestra Ubicacion!</h5>
+      </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3199.240848908986!2d-4.463598684858615!3d36.69274987997085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f9e72e48d321%3A0x97df739aef2578dc!2sCalle%20Tuc%C3%ADdides%2C%2024%2C%2029004%20M%C3%A1laga!5e0!3m2!1ses!2ses!4v1626023484954!5m2!1ses!2ses" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="card-img-top" alt="ubicacion-mapa-ranger"></iframe>
+      <a href="#" class="btn btn-warning">Ver sitio</a>
+    </div>
+  </footer>
+  <hr>
+  <a class="inicio" href="#arriba">Ir al inico</a>
+
+  <script src="../js/bootstrap.js"></script>
+</body>
+
+</html>

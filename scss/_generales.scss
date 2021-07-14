@@ -1,0 +1,136 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    background-color:#393E46;;
+}
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-weight:bolder;
+    font-size: 1em;
+    margin: 1%;
+    padding: 1%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    &:active{
+        color: white;
+        background-color: white;
+        border-radius: 10%;
+    }
+}
+.logoMenu{
+    width: 5%;
+}
+.sizeCarousel{
+    margin: 0 auto;
+        .aa{
+            color: white;
+        }
+        .textoRelleno{
+            color: #0a0707;
+            font-weight: lighter;
+            font-size: 1rem;
+            font-family: cursive;
+        }
+}
+.lista-grupo{
+        .lista__titulares{
+            font-family:cursive;
+            color: aliceblue;
+        &__enlace{
+            display: flex;
+            flex-direction: column;
+            padding-left: 0;
+            margin-top: 3%;
+            margin-bottom: 0;
+            border-radius: .25rem;
+            text-align: center;
+            background-color: #00CCFF;
+            border: #0a0707 solid 2px;
+            }    
+        }
+}
+//pagina de contacto//
+.paginaContacto{
+    background-color: #595260;
+        .caja-contacto{
+        width: 50%;
+        color: violet;
+        text-align: center;
+        border-radius: 60%;
+        border: violet 2px dashed;
+    }
+}
+
+
+//pagina de contacto//
+//pagina de seguimiento//
+.paginaSeguimiento{
+    background-color:white;
+    padding: 1%;
+}
+
+@media only screen and (max-width:320px) {
+    .datosEmpresa {
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .tituloEmpresa{
+       max-width: 600px;
+        display: flex;
+        flex-flow: wrap row;
+        font-size: 1rem;
+    }
+    .redesSociales{
+        max-width: 500px;
+        display: flex;
+        flex-flow: row nowrap;
+        margin: 1%;
+    }
+    
+    .cards-container{
+        max-width: 500px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .imagenesLogos{
+        max-width: 500px;
+        display: flex;
+        flex-direction: row;
+        flex-direction: column;
+    }
+    .imagenLogo{
+        max-width: 150px;
+        position:flex;
+        justify-content: space-around;
+    }
+    .imagen{
+        max-width: 250px;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .busqueda{
+        max-width: 400px;
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        background-image:url(/imagenes/img_motos/motocross4.jpg);
+    }
+    footer{
+        background-color: #323941;
+    }
+}

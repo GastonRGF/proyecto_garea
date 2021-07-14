@@ -1,0 +1,24 @@
+@import"generales";
+@import"titulo";
+@import"colores";
+@import"busqueda";
+@import"logos";
+@import"catalogo";
+@import"empresa";
+@import"variables";
+
+$h1:map-get($titulos,h1);
+$h2:map-get($titulos,h2);
+$h3:map-get($titulos,h3);
+$h4:map-get($titulos,h4);
+$h5:map-get($titulos,h5);
+$h6:map-get($titulos,h6);
+
+h1{
+    font-size: $h1;
+}
+h6{
+    font-size: $h6;
+}
+
+

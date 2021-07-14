@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    background-color:#393E46;
+}
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-weight:bolder;
+    font-size: 1em;
+    margin: 1%;
+    padding: 1%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+}
+.logoMenu{ 
+    width: 5%;
+}
+h1{
+    position: absolute;
+}
+h1:hover{
+    color: red;
+}
+a:active{
+    color: white;
+    
+    border-radius: 10%;
+}
+.sizeCarousel{
+    margin: 0 auto;
+}
+.tituloEmpresa{
+    font-size: 3em;
+    color: whitesmoke;
+    text-align: center;
+    margin: 0 auto;
+    animation-duration: 2s;
+    animation-name:titulo;
+    animation-iteration-count: infinite;
+    display: flex;
+    flex-flow: row wrap;
+}
+@keyframes titulo{
+    0%  {
+        opacity: 0;
+            }
+    50%     {
+            opacity: 1;
+            }
+    100%    {   opacity: 0;
+
+            }                    
+}
+.imagenLogo{
+    
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: flex-end;
+    transition: all 2s ease;
+}
+.imagenLogo:hover{
+    transform: scale(1.1,1.1);
+}
+.busqueda{
+    width: 45%;
+    margin: 5%;
+    background-image: url(/imagenes/img_motos/kawa_zx10r.jpg);
+    background-attachment:local;
+    background-size: cover;
+    background-position:center;
+    background-repeat:repeat;
+    color:white;
+    overflow: hidden;
+    border: 3px black solid;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5%;
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: flex-start;
+    align-items:center;
+    align-content: center;
+}
+.aa{
+    color:white;
+}
+#parrafo{
+    color: white;
+}
+.textoRelleno{
+    color: #0a0707;
+    font-weight: lighter;
+    font-size: 1rem;
+    font-family: cursive;
+}
+#titulo{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.lista__titulares{
+    font-family:cursive;
+    color: aliceblue;
+}
+.lista__enlace{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-top: 3%;
+    margin-bottom: 0;
+    border-radius: .25rem;
+    text-align: center;
+    background-color:#00CCFF ;
+    border: #0a0707 solid 2px;
+}
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contenidoCatalogo{
+    color: white;
+    background-color: black;
+    font-family:cursive;
+    border-radius: 10%;
+    text-align: center;
+    height: auto;
+    border: 3px orange solid;
+    padding: 0%;
+    margin: 0%;
+}
+.imagenesLogos__fila {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.imageneslogos__fotos{
+    width:18%;
+    border-radius: 10%;
+    margin: 1%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    align-items:center;
+}
+/*datos de la pagina Quines somos*/
+.empresa{
+    background-color:#595260 ;
+}
+.titulo-empresa{
+    color:#00CCFF;
+    font-family: cursive;
+    text-align: center;
+    font-size: 2rem;
+}
+.quienesSomos{
+    margin: 1%;
+    font-family:monospace;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+/*datos de la pagina Quines somos*/
+/*datos de la empresa*/
+.datosEmpresa{
+    height: 30%;
+    margin: 1%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-template-areas: 
+        "datos1 datos2 datos3";
+}
+.datos{
+    width: 60%;
+    border: #0a0707 solid 5px;
+    border-radius: 10%;
+    margin: 1%;    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    text-align: center;
+    background-image: linear-gradient(120deg, #5D76A9 0%, #004687 100%);
+    display: flex;
+    flex-flow: column wrap;
+    
+}
+.datos1{
+    grid-area: datos1;
+}
+.datos2{
+    grid-area: datos2;
+}
+.datos3{
+    grid-area: datos3;
+}
+#seccion1,#seccion2,#seccion3{
+    font-family: cursive;
+    font-size: 1em;
+    text-align: left;
+    margin: 1%;
+}
+/*datos de la empresa*/
+
+.redesSociales{
+    width: 25%;
+    margin: 1.5%;
+    position: relative;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:repeat(1,1fr);
+    grid-template-areas: 
+        "whatsapp facebook instagram twitter"  ;    
+}
+
+
+.whatsapp{
+    width: 30px;
+    grid-area: whatsapp;
+    border-radius: 20%;
+}
+.facebook{
+    width: 30px;
+    grid-area: facebook;
+    border-radius: 20%;
+
+}.instagram{
+    width: 30px;
+    grid-area: instagram;
+    border-radius: 20%;
+}
+.twitter{
+    width: 30px;
+    grid-area: twitter;
+    border-radius: 20%;
+}
+.inicio{
+    margin: 2%;
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+/*pagina de seguimiento*/
+.paginaSeguimiento{
+    background-color:#FFD523;
+    padding: 1%;
+    
+}
+/*pagina de seguimiento*/
+/*pagina de contacto*/
+.paginaContacto{
+    background-color: #595260;
+}
+.caja-contacto{
+    width: 50%;
+    color: violet;
+    text-align: center;
+    border-radius: 60%;
+    border: violet 2px dashed;
+}
+/*pagina de contacto*/
+/*pagina de repuestos*/
+.tituloRepuestos{
+    color: #FFC107;
+}
+/*pagina de repuestos*/
+
+
+
+
+@media only screen and (max-width:320px) {
+    .datosEmpresa {
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .tituloEmpresa{
+       max-width: 600px;
+        display: flex;
+        flex-flow: wrap row;
+        font-size: 1rem;
+    }
+    .redesSociales{
+        max-width: 500px;
+        display: flex;
+        flex-flow: row nowrap;
+        margin: 4%;
+        padding: 1%;
+    }
+    
+    .cards-container{
+        max-width: 500px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .imagenesLogos{
+        max-width: 500px;
+        display: flex;
+        flex-direction: row;
+        flex-direction: column;
+    }
+    .imagenLogo{
+        max-width: 150px;
+        position:flex;
+        justify-content:flex-start;
+        
+    }
+    .imagen{
+        max-width: 250px;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .busqueda{
+        max-width: 400px;
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        background-image:url(/imagenes/img_motos/kawa_zx10r.jpg);
+    }
+    footer{
+        background-color: #323941;
+    }
+}

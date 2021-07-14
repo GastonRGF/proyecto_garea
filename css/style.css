@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  background-color: #393E46; }
+
+p {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1em;
+  margin: 1%;
+  padding: 1%; }
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto Slab', serif; }
+  a:active {
+    color: white;
+    background-color: white;
+    border-radius: 10%; }
+
+.logoMenu {
+  width: 5%; }
+
+.sizeCarousel {
+  margin: 0 auto; }
+  .sizeCarousel .aa {
+    color: white; }
+  .sizeCarousel .textoRelleno {
+    color: #0a0707;
+    font-weight: lighter;
+    font-size: 1rem;
+    font-family: cursive; }
+
+.lista-grupo .lista__titulares {
+  font-family: cursive;
+  color: aliceblue; }
+  .lista-grupo .lista__titulares__enlace {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-top: 3%;
+    margin-bottom: 0;
+    border-radius: .25rem;
+    text-align: center;
+    background-color: #00CCFF;
+    border: #0a0707 solid 2px; }
+
+.paginaContacto {
+  background-color: #595260; }
+  .paginaContacto .caja-contacto {
+    width: 50%;
+    color: violet;
+    text-align: center;
+    border-radius: 60%;
+    border: violet 2px dashed; }
+
+.paginaSeguimiento {
+  background-color: white;
+  padding: 1%; }
+
+@media only screen and (max-width: 320px) {
+  .datosEmpresa {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+  .tituloEmpresa {
+    max-width: 600px;
+    display: flex;
+    flex-flow: wrap row;
+    font-size: 1rem; }
+  .redesSociales {
+    max-width: 500px;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 1%; }
+  .cards-container {
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  .imagenesLogos {
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-direction: column; }
+  .imagenLogo {
+    max-width: 150px;
+    position: flex;
+    justify-content: space-around; }
+  .imagen {
+    max-width: 250px;
+    display: flex;
+    flex-flow: row wrap; }
+  .busqueda {
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-image: url(/imagenes/img_motos/motocross4.jpg); }
+  footer {
+    background-color: #323941; } }
+
+header .tituloEmpresa {
+  font-size: 3em;
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+  animation-duration: 2s;
+  animation-name: titulo;
+  animation-iteration-count: infinite;
+  display: flex;
+  flex-flow: row wrap; }
+
+@keyframes titulo {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+header h1 {
+  position: absolute; }
+  header h1:hover {
+    color: red; }
+
+header .imagenLogo {
+  width: 300px;
+  margin: 0 auto;
+  flex-flow: wrap row;
+  justify-content: flex-end;
+  transition: all 2s ease;
+  display: flex; }
+  header .imagenLogo:hover {
+    transform: scale(1.1, 1.1); }
+
+.busqueda {
+  margin: 5%;
+  background-image: url(../imagenes/img_motos/salto.jpg);
+  background-size: cover;
+  color: #0a0707;
+  overflow: hidden;
+  border: 3px black   solid;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-radius: 5%;
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center; }
+  .busqueda #titulo {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+.imagenesLogos__fila {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.imagenesLogos__fotos {
+  width: 18%;
+  border-radius: 10%;
+  margin: 1%;
+  padding: 1%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center; }
+
+.contenidoCatalogo {
+  color: white;
+  background-color: black;
+  font-family: cursive;
+  border-radius: 10%;
+  text-align: center;
+  height: auto;
+  border: 3px orange solid;
+  padding: 0%;
+  margin: 0%; }
+
+.empresa {
+  background-color: white; }
+  .empresa .titulo-empresa {
+    color: #00CCFF;
+    font-family: cursive;
+    text-align: center;
+    font-size: 2rem; }
+  .empresa .quienesSomos {
+    margin: 1%;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+
+.datosEmpresa {
+  height: 30%;
+  margin: 1%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-areas: "datos1 datos2 datos3"; }
+  .datosEmpresa .datos {
+    width: 60%;
+    border: #0a0707 solid 5px;
+    border-radius: 10%;
+    margin: 1%;
+    font-family: Impact,Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    text-align: center;
+    background-image: linear-gradient 120deg, #a1c4fd 0%, #c2e9fb 100%;
+    display: flex;
+    flex-flow: column wrap; }
+    .datosEmpresa .datos .datos1 {
+      width: 60%;
+      border: #0a0707 solid 5px;
+      border-radius: 10%;
+      margin: 1%;
+      font-family: Impact,Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: italic;
+      text-align: center;
+      background-image: linear-gradient 120deg, #a1c4fd 0%, #c2e9fb 100%;
+      display: flex;
+      flex-flow: column wrap; }
+    .datosEmpresa .datos .datos2 {
+      width: 60%;
+      border: #0a0707 solid 5px;
+      border-radius: 10%;
+      margin: 1%;
+      font-family: Impact,Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: italic;
+      text-align: center;
+      background-image: linear-gradient 120deg, #a1c4fd 0%, #c2e9fb 100%;
+      display: flex;
+      flex-flow: column wrap; }
+    .datosEmpresa .datos .datos3 {
+      width: 60%;
+      border: #0a0707 solid 5px;
+      border-radius: 10%;
+      margin: 1%;
+      font-family: Impact,Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: italic;
+      text-align: center;
+      background-image: linear-gradient 120deg, #a1c4fd 0%, #c2e9fb 100%;
+      display: flex;
+      flex-flow: column wrap; }
+    .datosEmpresa .datos #seccion1, .datosEmpresa .datos #seccion2, .datosEmpresa .datos #seccion3 {
+      font-family: cursive;
+      font-size: 1em;
+      text-align: left;
+      margin: 1%; }
+
+h1 {
+  font-size: 3rem; }
+
+h6 {
+  font-size: 2rem; }

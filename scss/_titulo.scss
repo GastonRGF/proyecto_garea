@@ -1,0 +1,41 @@
+header{
+    .tituloEmpresa{
+        font-size: 3em;
+        color: black;
+        text-align: center;
+        margin: 0 auto;
+        animation-duration: 2s;
+        animation-name:titulo;
+        animation-iteration-count: infinite;
+        display: flex;
+        flex-flow: row wrap;
+        @keyframes titulo{
+            0%  {
+                opacity: 0;
+                    }
+            50%     {
+                    opacity: 1;
+                    }
+            100%    {   opacity: 0;
+        
+                    }                    
+        }
+    }
+    h1{
+        position: absolute;
+        &:hover{
+            color:red;
+        }
+    }
+    .imagenLogo{
+        width: 300px;
+        margin: 0 auto;
+        flex-flow: wrap row;
+        justify-content: flex-end;
+        transition: all 2s ease;
+        display: flex;
+            &:hover{
+                transform: scale(1.1,1.1);
+            }
+    }
+}

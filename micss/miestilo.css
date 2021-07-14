@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#a8edea), to(#fed6e3));
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+header .tituloEmpresa {
+  font-size: 3em;
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: titulo;
+          animation-name: titulo;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+header h1 {
+  position: absolute;
+}
+
+header h1:hover {
+  color: darkgrey;
+}
+
+header .imagenLogo {
+  width: 300px;
+  margin: 0 auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: wrap row;
+          flex-flow: wrap row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .imagenLogo:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+.busqueda {
+  margin: 5%;
+  background-image: url(/imagenes/salto.jpg);
+  background-size: cover;
+  color: #0a0707;
+  overflow: hidden;
+  border: 3px black   solid;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-radius: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: wrap column;
+          flex-flow: wrap column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.busqueda #titulo {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sizeCarousel {
+  margin: 0 auto;
+}
+
+.sizeCarousel .aa {
+  color: white;
+}
+
+.sizeCarousel .textoRelleno {
+  color: #0a0707;
+  font-weight: lighter;
+  font-size: 1rem;
+  font-family: cursive;
+}
+
+.lista-grupo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 0;
+  margin-top: 3%;
+  margin-bottom: 0;
+  border-radius: .25rem;
+  text-align: center;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#5ee7df), to(#b490ca));
+  background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+}
+
+.lista-grupo .titulares {
+  font-family: cursive;
+  color: aliceblue;
+}
+
+.contenidoCatalogo {
+  color: white;
+  background-color: black;
+  font-family: cursive;
+  border-radius: 10%;
+  text-align: center;
+  height: auto;
+  border: 3px orange solid;
+  padding: 0%;
+  margin: 0%;
+}
+
+.imagenesLogos .logos {
+  margin: 1%;
+  padding: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.imagenesLogos .logos .logos-fila {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.imagenesLogos .logos .logos-fila .logos1 {
+  width: 18%;
+  border-radius: 10%;
+  margin: 1%;
+  padding: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.datosEmpresa {
+  height: 30%;
+  margin: 1%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns:repeat(3,1fr);
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows:repeat(1,1fr);
+      grid-template-rows:repeat(1, 1fr);
+      grid-template-areas:"datos1 datos2 datos3";
+}
+
+.datosEmpresa .datos {
+  width: 60%;
+  border: #0a0707 solid 5px;
+  border-radius: 10%;
+  margin: 1%;
+  font-family: Impact,            Haettenschweiler, 'Arial Narrow         Bold', sans-serif;
+  font-style: italic;
+  text-align: center;
+  background-image: linear-gradient 120deg, #a1c4fd 0%, #c2e9fb 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+}
+
+.footer {
+  width: 100%;
+  height: 20%;
+  background-image: radial-gradient(circle at 120.71% 50%, #a1ffff 0, #85ffff 10%, #6bffff 20%, #54ffff 30%, #43ffff 40%, #3cf2f2 50%, #3dd7df 60%, #40bfcd 70%, #44abbd 80%, #479aae 90%, #498ca2 100%);
+}
+
+.footer #redes {
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+}
+
+.footer .redesSociales .whatsapp {
+  width: 30px;
+  grid-area: whatsapp;
+  border-radius: 20%;
+}
+
+.footer .redesSociales .facebook {
+  width: 30px;
+  grid-area: facebook;
+  border-radius: 20%;
+}
+
+.footer .redesSociales .instagram {
+  width: 30px;
+  grid-area: instagram;
+  border-radius: 20%;
+}
+
+.footer .redesSociales .twitter {
+  width: 30px;
+  grid-area: twitter;
+  border-radius: 20%;
+}
+
+/*# sourceMappingURL=miestilo.css.map */
