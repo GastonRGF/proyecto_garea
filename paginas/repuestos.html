@@ -29,22 +29,24 @@
   <!--Inicio de menu por boostrap-->
   <header>
     <section class="tituloEmpresa">
-      <h1><strong>Ranger Motorcycle Parts</strong></h1>
+      <h1>Ranger Motorcycle Parts</h1>
       <img class="imagenLogo" src="../imagenes/img_empresa/logo_de_empresa.png" alt="ranger_motos" id="arriba">
     </section>
-    <div class="redesSociales"> 
-      <a  class="whatsapp" href="https://www.whatsapp.com/" target="_blank"><img  class="whatsapp" src="../imagenes/img_redes/whatsapp.svg" alt="whatsapp-contacto-ranger"></a>
+    <div class="redesSociales">
+      <a class="whatsapp" href="https://www.whatsapp.com/" target="_blank"><img class="whatsapp"
+          src="../imagenes/img_redes/whatsapp.svg" alt="whatsapp-contacto-ranger"></a>
       <img class="facebook" src="../imagenes/img_redes/facebook.svg" alt="facebook-contacto-ranger">
-      <img  class="instagram" src="../imagenes/img_redes/instagram.svg" alt="instagram-contacto-ranger"></a>
-      <a  class="twitter" href="https://twitter.com/?lang=es" target="_blank" ><img  class="twitter" src="../imagenes/img_redes/twitter.svg"  alt="twitter-contacto-ranger"></a>
+      <img class="instagram" src="../imagenes/img_redes/instagram.svg" alt="instagram-contacto-ranger"></a>
+      <a class="twitter" href="https://twitter.com/?lang=es" target="_blank"><img class="twitter"
+          src="../imagenes/img_redes/twitter.svg" alt="twitter-contacto-ranger"></a>
     </div>
     <nav class="navbar navbar-expand-lg navbar-" id="barra">
       <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html"><img src="../imagenes/img_empresa/logo_nav.jpg" alt="logo_de_empresa" width="30" height="24"
-            class="d-inline-block align-text-top"></a>
+        <a class="navbar-brand" href="../index.html"><img src="../imagenes/img_empresa/logo_nav.jpg"
+            alt="logo_de_empresa" width="30" height="24" class="d-inline-block align-text-top"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"></button>
-        
+
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
@@ -57,8 +59,8 @@
               <a class="nav-link" target="_blank" href="../paginas/contacto.html">Contacto</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" target="_blank"  href="../paginas/repuestos.html" data-bs-toggle="dropdown"
-                aria-expanded="false">
+              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" target="_blank"
+                href="../paginas/repuestos.html" data-bs-toggle="dropdown" aria-expanded="false">
                 Tienda</a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <li><a class="dropdown-item" href="../paginas/repuestos.html">Catalogo</a></li>
@@ -74,8 +76,33 @@
   <hr>
   <!-- fin de datos De La Empresa-->
   <!--Fin de menu por boostrap-->
-
   <h2 class="tituloRepuestos">Tienda de Repuestos</h2>
+
+  <main class="caja-busqueda">
+    <span class="caja-busqueda">Seleccione su motocicleta</span>
+    <div class="caja-seleccion">
+      <form action="">
+        <label for=>Segmento:</label>
+        <select>
+          <option value="Deportiva">Deportiva</option>
+          <option value="Calle">Calle</option>
+          <option value="Trial">Trial</option>
+          <option value="Scooter">Scooter</option>
+          <option value="Custom">Custom</option>
+          <option value="Enduro">Enduro</option>
+          <option value="Motocross">Motocross</option>
+        </select><br>
+  
+        <label for="Marca">Marca:</label>
+        <input type="text" name="Marca" placeholder="Marca" id="marca:" required><br>
+        <label for="Modelo">Modelo:</label>
+        <input type="text" name="Modelo" id="modelo:" placeholder="Modelo" required>
+        <input type="reset" value="Limpiar">
+        <button><a href="../paginas/repuestos.html">Buscar</a></button><br>
+      </form>
+    </div>
+  </main>
+
   <hr>
   <section class="container m-5">
     <h5 class="text-center m-5 p-2 bg-info">Nuestro Catalogo 🔍</h5>
@@ -199,14 +226,17 @@
       </div>
     </div>
   </section>
-<hr>
+  <hr>
 
   <footer>
     <div class="card border-dark" style="width: 18rem;">
       <div class="card-body btn-warning">
-          <h5 class="card-title">Nuestra Ubicacion!</h5>
+        <h5 class="card-title">Nuestra Ubicacion!</h5>
       </div>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3199.240848908986!2d-4.463598684858615!3d36.69274987997085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f9e72e48d321%3A0x97df739aef2578dc!2sCalle%20Tuc%C3%ADdides%2C%2024%2C%2029004%20M%C3%A1laga!5e0!3m2!1ses!2ses!4v1626023484954!5m2!1ses!2ses" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="card-img-top" alt="ubicacion-mapa-ranger"></iframe>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3199.240848908986!2d-4.463598684858615!3d36.69274987997085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f9e72e48d321%3A0x97df739aef2578dc!2sCalle%20Tuc%C3%ADdides%2C%2024%2C%2029004%20M%C3%A1laga!5e0!3m2!1ses!2ses!4v1626023484954!5m2!1ses!2ses"
+        width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="card-img-top"
+        alt="ubicacion-mapa-ranger"></iframe>
       <a href="#" class="btn btn-warning">Ver sitio</a>
     </div>
   </footer>
