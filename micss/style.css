@@ -81,6 +81,12 @@ a:active{
     font-family: monospace;
     
 }
+.fotos{
+    transition: all 1s ease;
+}
+.fotos:hover{
+    transform: scale(1.1,1.1);
+}
 
 .caja-seleccion{
     color:wheat;
