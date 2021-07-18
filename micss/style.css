@@ -146,7 +146,13 @@ a:active{
     flex-direction: row;
     flex-wrap: wrap;
 }
-
+.accesorios{
+    text-align: center;
+    font-size: 3rem;
+    color: aliceblue;
+    padding: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 .imageneslogos__fotos{
     width:18%;
