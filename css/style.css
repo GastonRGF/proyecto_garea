@@ -107,7 +107,13 @@ a {
     justify-content: flex-start;
     background-image: url(/imagenes/img_motos/motocross4.jpg); }
   footer {
-    background-color: #323941; } }
+    background-color: #323941; }
+  .titulo-acce {
+    padding: 2%;
+    text-align: center;
+    font-size: 1rem;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; } }
 
 header .tituloEmpresa {
   font-size: 3em;
@@ -161,22 +167,27 @@ header .imagenLogo {
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
 
-.imagenesLogos__fila {
-  width: 60%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; }
-
-.imagenesLogos__fotos {
-  width: 18%;
-  border-radius: 10%;
-  margin: 1%;
-  padding: 1%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center; }
+aside .titulo-acce {
+  padding: 2%;
+  text-align: center;
+  font-size: 3rem;
+  color: aliceblue;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+  aside .titulo-acce .imagenesLogos__fila {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  aside .titulo-acce .imagenesLogos__fotos {
+    width: 18%;
+    border-radius: 10%;
+    margin: 1%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center; }
 
 .contenidoCatalogo {
   color: white;
