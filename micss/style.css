@@ -141,6 +141,9 @@ a:active{
     padding: 0%;
     margin: 0%;
 }
+.titulo-cat{
+    font-family: monospace;
+}
 
 .imagenesLogos__fila {
     width: 60%;
@@ -231,7 +234,10 @@ a:active{
     margin: 1%;
 }
 /*datos de la empresa*/
-
+#sociales{
+    color: whitesmoke;
+    font-weight: bold;
+}
 .redesSociales{
     width: 25%;
     margin: 1.5%;
@@ -279,7 +285,7 @@ a:active{
     border-radius: 20%;
 }
 .inicio{
-    margin: 2%;
+    margin: 1%;
     font-size: 1.5rem;
     color: white;
     display: flex;
@@ -287,6 +293,8 @@ a:active{
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+
 
 
 /*pagina de seguimiento*/
@@ -379,5 +387,18 @@ a:active{
         font-size: 1rem;
         color: #f12c2c;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .btn-whatsapp{
+        display:block;
+        width:70px;
+        height:70px;
+        color:#fff;
+        position: fixed;
+        right:20px;
+        bottom:20px;
+        border-radius:50%;
+        line-height:80px;
+        text-align:center;
+        z-index:999;
     }
 }
