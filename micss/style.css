@@ -20,7 +20,7 @@ p{
 }
 a{
     text-decoration: none;
-    color: black;
+    color:black;
     font-family: 'Roboto Slab', serif;
 }
 .logoMenu{ 
@@ -33,7 +33,7 @@ h1:hover{
     color: red;
 }
 a:active{
-    color: white;
+    color: red;
     
     border-radius: 10%;
 }
