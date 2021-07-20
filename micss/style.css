@@ -330,6 +330,12 @@ a:active{
 .tituloRepuestos{
     color: #FFC107;
 }
+.movimiento{
+    transition: all 0s ease;
+}
+.movimiento:hover{
+    transform: scale(1.2,1.2);
+}
 /*pagina de repuestos*/
 
 
