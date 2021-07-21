@@ -26,9 +26,7 @@ a{
 .logoMenu{ 
     width: 5%;
 }
-h1{
-    position: absolute;
-}
+
 a:active{
     color: red;
     
