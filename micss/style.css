@@ -178,6 +178,20 @@ a:active{
     color: aliceblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.caja2-logo{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.imageneslogos{
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+}
 .imageneslogos__fotos{
     width:18%;
     border-radius: 10%;
@@ -299,14 +313,17 @@ a:active{
 }
 .inicio{
     margin: 1%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: white;
     display: flex;
     justify-content:flex-end;
     flex-direction: row;
     flex-wrap: wrap;
 }
-
+.redSoc{
+    margin: 2%;
+    padding: 1%;
+}
 
 
 
@@ -360,10 +377,14 @@ a:active{
 
 @media only screen and (min-width: 321px) and (max-width:768px){
     .datosEmpresa {
-        max-width: 600px;
+        max-width: 400px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+    }
+    .caja-mapa{
+        width: 250px;
+        
     }
     .tituloEmpresa{
         max-width: 600px;
@@ -390,6 +411,7 @@ a:active{
          display: flex;
          flex-direction: row;
          flex-direction: column;
+         margin: 0 auto;
      }
      .imagenLogo{
          max-width: 150px;
@@ -482,6 +504,18 @@ a:active{
         flex-direction: row;
         flex-direction: column;
     }
+    .caja-logos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+    .caja2-logo{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+    }
     .imagenLogo{
         max-width: 150px;
         position:flex;
@@ -507,6 +541,18 @@ a:active{
     }
     footer{
         background-color: #323941;
+    }
+    .redSoc{
+        margin: 3%;
+        padding: 3%;
+    }
+    .caja-mapa{
+        width: 250px;
+        
+    }
+    .inicio{
+        width: 110px;
+        font-size: 1.2rem;
     }
     .titulo-acce{
         padding: 2%;
