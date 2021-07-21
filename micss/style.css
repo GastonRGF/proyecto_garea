@@ -145,6 +145,14 @@ a:active{
     padding: 0%;
     margin: 0%;
 }
+.catalogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bb{
+    flex-direction: column;
+}
 
 .titulo-cat{
     font-family: monospace;
@@ -309,6 +317,20 @@ a:active{
     color: white;
     
 }
+.seguimiento-caja {
+    display: flex;
+    align-items: center;
+}
+.seguimiento-caja__input {
+    position: absolute;
+    color: black;
+}
+.seguimiento-caja__imagen {
+    width: 100%;
+}
+.seguimiento-caja__imagen-ancho {
+    width: 100%;
+}
 /*pagina de seguimiento*/
 /*pagina de contacto*/
 .paginaContacto{
@@ -336,7 +358,14 @@ a:active{
 }
 /*pagina de repuestos*/
 
-
+@media only screen and (min-width: 321px) and (max-width:768px){
+    .datosEmpresa {
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
 
 
 @media only screen and (max-width:320px) {
