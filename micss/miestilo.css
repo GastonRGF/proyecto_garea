@@ -219,11 +219,6 @@ header .imagenLogo:hover {
           flex-flow: column wrap;
 }
 
-.footer {
-  width: 100%;
-  height: 20%;
-  background-image: radial-gradient(circle at 120.71% 50%, #a1ffff 0, #85ffff 10%, #6bffff 20%, #54ffff 30%, #43ffff 40%, #3cf2f2 50%, #3dd7df 60%, #40bfcd 70%, #44abbd 80%, #479aae 90%, #498ca2 100%);
-}
 
 .footer #redes {
   text-align: center;
