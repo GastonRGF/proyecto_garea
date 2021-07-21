@@ -5,8 +5,6 @@
 }
 
 body{
-    
-    color: black;
     font-family: 'Roboto', sans-serif;
     background-color:#393E46;
 }
@@ -58,7 +56,6 @@ a:active{
             }                    
 }
 .imagenLogo{
-    
     width: 300px;
     margin: 0 auto;
     display: flex;
@@ -148,6 +145,7 @@ a:active{
     padding: 0%;
     margin: 0%;
 }
+
 .titulo-cat{
     font-family: monospace;
 }
@@ -318,10 +316,12 @@ a:active{
 }
 .caja-contacto{
     width: 50%;
-    color: violet;
+    margin: 2%;
+    color: rgb(255, 182, 255);
     text-align: center;
-    border-radius: 60%;
-    border: violet 2px dashed;
+    border: aliceblue 2px dashed;
+   
+    
 }
 /*pagina de contacto*/
 /*pagina de repuestos*/
@@ -417,5 +417,14 @@ a:active{
         line-height:80px;
         text-align:center;
         z-index:999;
+    }
+    .caja-contacto{
+        width: 50%;
+        margin: 2%;
+        color: royalblue;
+        text-align: center;
+        border: #f12c2c 2px solid;
+        font-size: unset;
+        font-family: monospace;
     }
 }
