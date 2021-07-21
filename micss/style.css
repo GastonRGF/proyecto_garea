@@ -365,6 +365,87 @@ a:active{
         flex-direction: column;
         flex-wrap: wrap;
     }
+    .tituloEmpresa{
+        max-width: 600px;
+         display: flex;
+         flex-flow: wrap row;
+         font-size: 1rem;
+     }
+     .redesSociales{
+         max-width: 500px;
+         display: flex;
+         flex-flow: row nowrap;
+         margin: 4%;
+         padding: 1%;
+     }
+     
+     .cards-container{
+         max-width: 500px;
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+     }
+     .imagenesLogos{
+         max-width: 500px;
+         display: flex;
+         flex-direction: row;
+         flex-direction: column;
+     }
+     .imagenLogo{
+         max-width: 150px;
+         position:flex;
+         justify-content:flex-start;
+         
+     }
+     .imagen{
+         max-width: 250px;
+         display: flex;
+         flex-flow: row wrap;
+     }
+     .caja-seleccion{
+         max-width: 400px;
+         color:wheat;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana,sans-serif;
+         font-size: larger;
+         display:flex;
+         flex-flow: wrap column;
+         justify-content: flex-start;
+         align-items:center;
+         align-content: center;
+         border-radius: 5%;
+     }
+     footer{
+         background-color: #323941;
+     }
+     .titulo-acce{
+         padding: 2%;
+         text-align: center;
+         font-size: 1rem;
+         color: #f12c2c;
+         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     }
+     .btn-whatsapp{
+         display:block;
+         width:70px;
+         height:70px;
+         color:#fff;
+         position: fixed;
+         right:20px;
+         bottom:20px;
+         border-radius:50%;
+         line-height:80px;
+         text-align:center;
+         z-index:999;
+     }
+     .caja-contacto{
+         width: 50%;
+         margin: 2%;
+         color: royalblue;
+         text-align: center;
+         border: #f12c2c 2px solid;
+         font-size: unset;
+         font-family: monospace;
+     }
 }
 
 
