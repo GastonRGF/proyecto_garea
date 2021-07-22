@@ -203,6 +203,9 @@ a:active{
     justify-content:space-between;
     align-items:center;
 }
+.caja-mapa{
+    width: 90rem;
+}
 /*datos de la pagina Quines somos*/
 .empresa{
     background-color:#595260 ;
@@ -341,6 +344,7 @@ a:active{
 .seguimiento-caja__input {
     position: absolute;
     color: black;
+    margin: 1%;
 }
 .seguimiento-caja__imagen {
     width: 100%;
@@ -383,8 +387,8 @@ a:active{
         flex-wrap: wrap;
     }
     .caja-mapa{
-        width: 250px;
-        
+        width: 40rem;
+        display: inline-block;
     }
     .tituloEmpresa{
         max-width: 600px;
@@ -406,6 +410,20 @@ a:active{
          flex-direction: row;
          flex-wrap: wrap;
      }
+     .caja-logos{
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+     .caja2-logo{
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+    }
      .imagenesLogos{
          max-width: 500px;
          display: flex;
@@ -505,12 +523,14 @@ a:active{
         flex-direction: column;
     }
     .caja-logos{
+        max-width: 500px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         align-items: stretch;
     }
     .caja2-logo{
+        max-width: 500px;
         display: flex;
         flex-direction: column;
         align-content: center;
@@ -547,7 +567,8 @@ a:active{
         padding: 3%;
     }
     .caja-mapa{
-        width: 250px;
+        width: 18rem;
+        display: flow-root;
         
     }
     .inicio{
