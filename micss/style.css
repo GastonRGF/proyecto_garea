@@ -400,8 +400,10 @@ a:active{
          max-width: 500px;
          display: flex;
          flex-flow: row nowrap;
-         margin: 4%;
+         margin: 2%;
          padding: 1%;
+         justify-content: space-around;
+         align-items: center;
      }
      
      .cards-container{
@@ -506,8 +508,10 @@ a:active{
         max-width: 500px;
         display: flex;
         flex-flow: row nowrap;
-        margin: 4%;
+        margin: 2%;
         padding: 1%;
+        justify-content: space-around;
+        align-items: center;
     }
     
     .cards-container{
