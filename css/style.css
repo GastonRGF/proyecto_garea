@@ -290,6 +290,11 @@ aside .titulo-acce {
   font-size: 3rem;
   color: aliceblue;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+  aside .titulo-acce .caja2-logo {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap; }
   aside .titulo-acce .imagenesLogos__fila {
     width: 60%;
     display: flex;
