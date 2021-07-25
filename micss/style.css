@@ -211,7 +211,7 @@ a:active{
     background-color:#595260 ;
 }
 .titulo-empresa{
-    color:#00CCFF;
+    color:#ffc107;
     font-family: cursive;
     text-align: center;
     font-size: 2rem;
@@ -222,6 +222,10 @@ a:active{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    background-color: #fdd805;
+    color: black;
+    border:black dashed 2px;
+    text-align: center;
 
 }
 /*datos de la pagina Quines somos*/
@@ -512,6 +516,7 @@ a:active{
         padding: 1%;
         justify-content: space-around;
         align-items: center;
+        margin: 10%;
     }
     
     .cards-container{
