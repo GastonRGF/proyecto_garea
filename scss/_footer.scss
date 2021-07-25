@@ -14,6 +14,9 @@
         text-align: center;
         font-family: 'Noto Serif', serif;  
     }
+    .caja-mapa{
+        width: 90rem;
+    }
     .redesSociales{
             .whatsapp{
                 @include redes(whatsapp);

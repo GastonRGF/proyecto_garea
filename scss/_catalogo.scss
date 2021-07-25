@@ -1,11 +1,26 @@
-.contenidoCatalogo{
-    color: white;
-    background-color: black;
-    font-family:cursive;
-    border-radius: 10%;
-    text-align: center;
-    height: auto;
-    border: 3px orange solid;
-    padding: 0%;
-    margin: 0%;
+.catalogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .contenidoCatalogo{
+        color: white;
+        background-color: black;
+        font-family:cursive;
+        border-radius: 10%;
+        text-align: center;
+        height: auto;
+        border: 3px orange solid;
+        padding: 0%;
+        margin: 0%;
+        .titulo-cat{
+            font-family: monospace;
+        }
+    .fotos{
+        transition: all 1s ease;
+        :hover{
+            transform: scale(1.1,1.1);
+        }
+    }    
+    }
 }
+

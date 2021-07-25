@@ -57,7 +57,7 @@
                 .datos3{
                     @include datos(datos3);
                 }
-                #seccion1,#seccion2,#seccion3{
+                .seccion1{
                     font-family: cursive;
                     font-size: 1em;
                     text-align: left;

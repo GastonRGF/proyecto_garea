@@ -21,18 +21,11 @@ a{
     color:black;
     font-family: 'Roboto Slab', serif;
 }
-.logoMenu{ 
-    width: 5%;
-}
-
 a:active{
     color: red;
-    
     border-radius: 10%;
 }
-.sizeCarousel{
-    margin: 0 auto;
-}
+
 .tituloEmpresa{
     font-size: 3em;
     color: #ffa600;
@@ -66,6 +59,15 @@ a:active{
 .imagenLogo:hover{
     transform: scale(1.1,1.1);
 }
+.sizeCarousel{
+    margin: 0 auto;
+}
+.fotos{
+    transition: all 1s ease;
+}
+.fotos:hover{
+    transform: scale(1.1,1.1);
+}
 .caja-busqueda{
     background-image:url(../imagenes/img_motos/kawasaki_zx10r.jpg);
     background-size: cover;
@@ -76,13 +78,6 @@ a:active{
     font-family: monospace;
     
 }
-.fotos{
-    transition: all 1s ease;
-}
-.fotos:hover{
-    transform: scale(1.1,1.1);
-}
-
 .caja-seleccion{
     color:wheat;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -96,18 +91,6 @@ a:active{
 
 }
 
-.aa{
-    color:white;
-}
-#parrafo{
-    color: white;
-}
-.textoRelleno{
-    color: #0a0707;
-    font-weight: lighter;
-    font-size: 1rem;
-    font-family: cursive;
-}
 
 .titulo{
     color: #ffa600;
@@ -129,10 +112,11 @@ a:active{
     background-color:#e2ba40 ;
     border: #0a0707 solid 2px;
 }
-.cards-container {
+
+.catalogo{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
 .contenidoCatalogo{
     color: white;
@@ -145,32 +129,10 @@ a:active{
     padding: 0%;
     margin: 0%;
 }
-.catalogo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.bb{
-    flex-direction: column;
-}
-
 .titulo-cat{
     font-family: monospace;
 }
-
-.imagenesLogos__fila {
-    width: 60%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.accesorios{
-    text-align: center;
-    font-size: 3rem;
-    color: aliceblue;
-    padding: 2%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+/*seccion catalago*/
 .titulo-acce{
     padding: 2%;
     text-align: center;
@@ -178,13 +140,6 @@ a:active{
     color: aliceblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.caja2-logo{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    flex-wrap: wrap;
-}
-
 .imageneslogos{
     display: flex;
     flex-direction: column;
@@ -203,6 +158,22 @@ a:active{
     justify-content:space-between;
     align-items:center;
 }
+.imagenesLogos__fila {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.caja2-logo{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+/*seccion catalago*/
+
+
+
 .caja-mapa{
     width: 90rem;
 }
@@ -266,6 +237,7 @@ a:active{
     font-size: 1em;
     text-align: left;
     margin: 1%;
+    text-decoration: underline;
 }
 /*datos de la empresa*/
 #sociales{
