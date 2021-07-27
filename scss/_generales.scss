@@ -105,6 +105,17 @@ a{
             }
         }
     }
+    .boton_buscar{
+        border-radius: 5px;
+    }
+    .titulo_seguimiento{
+        color: #f12c2c;
+        font-weight: bold;
+        .subTit_seguimiento{
+            color: crimson;
+            font-weight:bolder;
+        }
+    }
 
     
 }

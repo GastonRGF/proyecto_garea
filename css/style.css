@@ -87,6 +87,14 @@ a {
         width: 100%; }
         .paginaSeguimiento .seguimiento-caja .seguimiento-caja__input .seguimiento-caja__imagen .seguimiento-caja__imagen-ancho {
           width: 100%; }
+  .paginaSeguimiento .boton_buscar {
+    border-radius: 5px; }
+  .paginaSeguimiento .titulo_seguimiento {
+    color: #f12c2c;
+    font-weight: bold; }
+    .paginaSeguimiento .titulo_seguimiento .subTit_seguimiento {
+      color: crimson;
+      font-weight: bolder; }
 
 @media only screen and (max-width: 320px) {
   .datosEmpresa {
