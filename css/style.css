@@ -71,6 +71,29 @@ a {
     text-align: center;
     border-radius: 60%;
     border: violet 2px dashed; }
+    .paginaContacto .caja-contacto .btn_consulta {
+      animation-duration: 2s;
+      animation-name: consulta;
+      animation-iteration-count: infinite; }
+
+@keyframes consulta {
+  0% {
+    opacity: 5; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+    .paginaContacto .caja-contacto .modal-footer {
+      display: flex;
+      flex-wrap: wrap;
+      flex-shrink: 0;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: .75rem;
+      border-top: 1px solid #dee2e6;
+      border-bottom-right-radius: calc(.3rem - 1px);
+      border-bottom-left-radius: calc(.3rem - 1px);
+      align-content: stretch; }
 
 .paginaSeguimiento {
   background-color: #393E46;

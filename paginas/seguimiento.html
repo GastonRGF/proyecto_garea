@@ -89,26 +89,50 @@
         <button class="boton_buscar bg-warning">Buscar</button>
       </div>
       <div class="seguimiento-caja__imagen">
-        <img src="../imagenes/img_motos/seguimientos_de_envios.jpg" alt="" class="seguimiento-caja__imagen-ancho">
+        <img src="../imagenes/seguimiento/seguimientos_de_envios.jpg" alt="envios_paquetes_pedido" class="seguimiento-caja__imagen-ancho">
       </div>
     </section>
   
     <hr>
     <footer>
+      <section class="datosEmpresa">
+        <div class="datos datos1">
+          <h2 id="info">Atención al cliente</h2>
+          <a href="#" rel="noopener" rel="noreferrer" class="seccion1">Centro de ayuda</a>
+          <a href="#" rel="noopener" rel="noreferrer" class="seccion1">Términos y condiciones</a>
+          <a href="#" rel="noopener" rel="noreferrer" class="seccion1">Blog</a>
+      
+        </div>
+        <div class="datos datos2">
+          <h2>Todo sobre ranger</h2>
+          <a class="seccion1" href="#" rel="noopener" rel="noreferrer">Informacion de la Empresa</a>
+          <a class="seccion1" href="#" rel="noopener" rel="noreferrer">Todo sobre nosotros</a>
+          <a class="seccion1" href="#" rel="noopener" rel="noreferrer">Programa de bonificación</a>
+      
+        </div>
+        <div class="datos datos3">
+          <h2 id="lomasFrecuente">Lo más frecuente</h2>
+          <a href="#" rel="noopener" rel="noreferrer" class="seccion1">Envíos</a>
+          <a href="#" rel="noopener" rel="noreferrer" class="seccion1">Ayuda</a>
+          <a href="#" rel="noopener" rel="noreferrer" class="seccion1">Devoluciones y reembolso</a>
+        </div>
+      </section>
       <div class="redSoc">
         <h3 id="sociales">Redes Sociales</h3>
-        <a href="http://www.facebook.com" target="_blank" rel="noopener">
-          <img src="../imagenes/img_redes/facebook.svg" width="30" alt="Facebook">
-        </a>
-        <a href="http://www.instagram.com" target="_blank" rel="noopener">
-          <img src="../imagenes/img_redes/instagram.svg" width="30" alt="Instagram">
-        </a>
-        <a href="http://www.twitter.com" target="_blank" rel="noopener">
-          <img src="../imagenes/img_redes/twitter.svg" width="30" alt="Twitter">
-        </a>
-        <a href="http://web.whatsapp.com" target="_blank" rel="noopener">
-          <img src="../imagenes/img_redes/whatsapp.svg" width="30" alt="Whatsapp">
-        </a>
+        <div class="caja-soc">
+          <a href="http://www.facebook.com" target="_blank" rel="noopener">
+            <img src="../imagenes/img_redes/facebook.svg" width="30" alt="Facebook">
+          </a>
+          <a href="http://www.instagram.com" target="_blank" rel="noopener">
+            <img src="../imagenes/img_redes/instagram.svg" width="30" alt="Instagram">
+          </a>
+          <a href="http://www.twitter.com" target="_blank" rel="noopener">
+            <img src="../imagenes/img_redes/twitter.svg" width="30" alt="Twitter">
+          </a>
+          <a href="http://web.whatsapp.com" target="_blank" rel="noopener">
+            <img src="../imagenes/img_redes/whatsapp.svg" width="30" alt="Whatsapp">
+          </a>
+        </div>
       </div>
       <br>
         <div class="btn-whatsapp">
@@ -116,19 +140,20 @@
                 <img src="../imagenes/img_redes/btn_whatsapp.png" alt="btn-whatsapp">
             </a>
         </div>
-        <div class="card border-dark m-2">
+        <aside class="caja-mapa">
+          <div class="caja-mapa card m-2 border-dark">
             <div class="card-body btn-warning">
-                <h5 class="card-title">Nuestra Ubicacion!</h5>
+              <p class="titulo-cat">Puede visitarnos</p>
             </div>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3199.240848908986!2d-4.463598684858615!3d36.69274987997085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f9e72e48d321%3A0x97df739aef2578dc!2sCalle%20Tuc%C3%ADdides%2C%2024%2C%2029004%20M%C3%A1laga!5e0!3m2!1ses!2ses!4v1626023484954!5m2!1ses!2ses"
-                style="border:0;" allowfullscreen="" loading="lazy" class="card-img-top"
-                alt="ubicacion-mapa-ranger"></iframe>
+            <iframe title="Nuestra ubicación"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3199.240848908986!2d-4.463598684858615!3d36.69274987997085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f9e72e48d321%3A0x97df739aef2578dc!2sCalle%20Tuc%C3%ADdides%2C%2024%2C%2029004%20M%C3%A1laga!5e0!3m2!1ses!2ses!4v1626023484954!5m2!1ses!2ses"
+              style="border:0;" allowfullscreen="" loading="lazy" class="card-img-top" alt="ubicacion-mapa-ranger"></iframe>
             <a href="#" class="btn btn-warning">Ver sitio</a>
-        </div>
+          </div>
+        </aside>
     </footer>
     <hr>
-    <a class="inicio" href="#arriba">Ir al inico</a>
+    <button class="inicio bg-warning"><a class="inicio" href="#arriba">Ir al inico</a></button>
 
 
     <script src="../js/bootstrap.js"></script>
