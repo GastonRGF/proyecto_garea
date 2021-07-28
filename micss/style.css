@@ -25,7 +25,6 @@ a:active{
     color: red;
     border-radius: 10%;
 }
-
 .tituloEmpresa{
     font-size: 3em;
     color: #ffa600;
@@ -90,10 +89,7 @@ a:active{
     align-items:center;
     align-content: center;
     border-radius: 5%;
-
 }
-
-
 .titulo{
     color: #ffa600;
     text-align: center;
