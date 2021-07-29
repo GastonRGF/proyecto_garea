@@ -167,7 +167,9 @@ a{
         flex-flow: row nowrap;
         margin: 1%;
     }
-    
+    .caja-mapa{
+        width: 100%;
+    }
     .cards-container{
         max-width: 500px;
         display: flex;
@@ -208,6 +210,36 @@ a{
         color: aliceblue;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
+    .redSoc{
+        margin: 3%;
+        padding: 3%;
+    }
+    .inicio{
+        width: 110px;
+        font-size: 1.2rem;
+    }
+    .btn-whatsapp{
+        display:block;
+        width:70px;
+        height:70px;
+        color:#fff;
+        position: fixed;
+        right:20px;
+        bottom:20px;
+        border-radius:50%;
+        line-height:80px;
+        text-align:center;
+        z-index:999;
+    }
+    .caja-contacto{
+        width: 50%;
+        margin: 2%;
+        color: royalblue;
+        text-align: center;
+        border: #f12c2c 2px solid;
+        font-size: unset;
+        font-family: monospace;
+    }
 }
 @media only screen and (min-width: 321px) and (max-width:768px){
     .datosEmpresa {
@@ -217,13 +249,12 @@ a{
         flex-wrap: wrap;
     }
     .caja-mapa{
-        width: 40rem;
-        display: inline-block;
+        width:100%;
     }
     .tituloEmpresa{
         max-width: 600px;
          display: flex;
-         flex-flow: wrap row;
+         flex-flow: wrap column;
          font-size: 1rem;
      }
      .redesSociales{
@@ -249,7 +280,7 @@ a{
         flex-wrap: wrap;
         align-items: stretch;
     }
-     .caja2-logo{
+     .caja2-logos{
         max-width: 500px;
         display: flex;
         flex-direction: column;
@@ -265,7 +296,7 @@ a{
      }
      .imagenLogo{
          max-width: 150px;
-         position:flex;
+         display:flex;
          justify-content:flex-start;
          
      }
@@ -325,15 +356,16 @@ a{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        
     }
     .caja-mapa{
-        width: 40rem;
-        display: inline-block;
+        width: 100%;
+        
     }
     .tituloEmpresa{
         max-width: 600px;
          display: flex;
-         flex-flow: wrap row;
+         flex-flow: wrap column;
          font-size: 1rem;
      }
      .redesSociales{
@@ -359,7 +391,7 @@ a{
         flex-wrap: wrap;
         align-items: stretch;
     }
-     .caja2-logo{
+     .caja2-logos{
         max-width: 500px;
         display: flex;
         flex-direction: column;
@@ -375,7 +407,7 @@ a{
      }
      .imagenLogo{
          max-width: 150px;
-         position:flex;
+         display:flex;
          justify-content:flex-start;
          
      }

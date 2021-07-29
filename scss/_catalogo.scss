@@ -6,12 +6,17 @@
         color: white;
         background-color: black;
         font-family:cursive;
-        border-radius: 10%;
+        border-radius: 10px;
         text-align: center;
         height: auto;
         border: 3px orange solid;
         padding: 0%;
         margin: 0%;
+        .col-md-4{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
         .titulo-cat{
             font-family: monospace;
         }

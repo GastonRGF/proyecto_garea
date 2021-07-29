@@ -8,7 +8,8 @@ header{
         animation-name:titulo;
         animation-iteration-count: infinite;
         display: flex;
-        flex-flow: row wrap;
+        flex-flow: column wrap;
+        align-content: center;
         @keyframes titulo{
             0%  {
                 opacity: 0;
@@ -30,6 +31,8 @@ header{
     .imagenLogo{
         width: 300px;
         margin: 0 auto;
+        margin-top: 27px;
+        display: flex;
         flex-flow: wrap row;
         justify-content: flex-end;
         transition: all 2s ease;

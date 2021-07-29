@@ -135,6 +135,8 @@ a {
     display: flex;
     flex-flow: row nowrap;
     margin: 1%; }
+  .caja-mapa {
+    width: 100%; }
   .cards-container {
     max-width: 500px;
     display: flex;
@@ -167,7 +169,33 @@ a {
     text-align: center;
     font-size: 1rem;
     color: aliceblue;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; } }
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+  .redSoc {
+    margin: 3%;
+    padding: 3%; }
+  .inicio {
+    width: 110px;
+    font-size: 1.2rem; }
+  .btn-whatsapp {
+    display: block;
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    line-height: 80px;
+    text-align: center;
+    z-index: 999; }
+  .caja-contacto {
+    width: 50%;
+    margin: 2%;
+    color: royalblue;
+    text-align: center;
+    border: #f12c2c 2px solid;
+    font-size: unset;
+    font-family: monospace; } }
 
 @media only screen and (min-width: 321px) and (max-width: 768px) {
   .datosEmpresa {
@@ -176,12 +204,11 @@ a {
     flex-direction: column;
     flex-wrap: wrap; }
   .caja-mapa {
-    width: 40rem;
-    display: inline-block; }
+    width: 100%; }
   .tituloEmpresa {
     max-width: 600px;
     display: flex;
-    flex-flow: wrap row;
+    flex-flow: wrap column;
     font-size: 1rem; }
   .redesSociales {
     max-width: 500px;
@@ -202,7 +229,7 @@ a {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: stretch; }
-  .caja2-logo {
+  .caja2-logos {
     max-width: 500px;
     display: flex;
     flex-direction: column;
@@ -216,7 +243,7 @@ a {
     margin: 0 auto; }
   .imagenLogo {
     max-width: 150px;
-    position: flex;
+    display: flex;
     justify-content: flex-start; }
   .imagen {
     max-width: 250px;
@@ -269,12 +296,11 @@ a {
     flex-direction: column;
     flex-wrap: wrap; }
   .caja-mapa {
-    width: 40rem;
-    display: inline-block; }
+    width: 100%; }
   .tituloEmpresa {
     max-width: 600px;
     display: flex;
-    flex-flow: wrap row;
+    flex-flow: wrap column;
     font-size: 1rem; }
   .redesSociales {
     max-width: 500px;
@@ -295,7 +321,7 @@ a {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: stretch; }
-  .caja2-logo {
+  .caja2-logos {
     max-width: 500px;
     display: flex;
     flex-direction: column;
@@ -309,7 +335,7 @@ a {
     margin: 0 auto; }
   .imagenLogo {
     max-width: 150px;
-    position: flex;
+    display: flex;
     justify-content: flex-start; }
   .imagen {
     max-width: 250px;
@@ -364,7 +390,8 @@ header .tituloEmpresa {
   animation-name: titulo;
   animation-iteration-count: infinite;
   display: flex;
-  flex-flow: row wrap; }
+  flex-flow: column wrap;
+  align-content: center; }
 
 @keyframes titulo {
   0% {
@@ -382,6 +409,8 @@ header h1 {
 header .imagenLogo {
   width: 300px;
   margin: 0 auto;
+  margin-top: 27px;
+  display: flex;
   flex-flow: wrap row;
   justify-content: flex-end;
   transition: all 2s ease;
@@ -414,11 +443,13 @@ aside .titulo-acce {
   font-size: 3rem;
   color: aliceblue;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
-  aside .titulo-acce .caja2-logo {
+  aside .titulo-acce .caja-logo {
     display: flex;
     flex-direction: column;
-    align-content: center;
-    flex-wrap: wrap; }
+    align-items: center; }
+  aside .titulo-acce .caja2-logo {
+    display: flex;
+    align-content: center; }
   aside .titulo-acce .imagenesLogos__fila {
     width: 60%;
     display: flex;
@@ -443,12 +474,16 @@ aside .titulo-acce {
     color: white;
     background-color: black;
     font-family: cursive;
-    border-radius: 10%;
+    border-radius: 10px;
     text-align: center;
     height: auto;
     border: 3px orange solid;
     padding: 0%;
     margin: 0%; }
+    .catalogo .contenidoCatalogo .col-md-4 {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px; }
     .catalogo .contenidoCatalogo .titulo-cat {
       font-family: monospace; }
     .catalogo .contenidoCatalogo .fotos {
@@ -474,6 +509,7 @@ aside .titulo-acce {
   height: 30%;
   margin: 1%;
   display: grid;
+  justify-items: center;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 1fr);
   grid-template-areas: "datos1 datos2 datos3"; }
