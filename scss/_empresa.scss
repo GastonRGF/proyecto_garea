@@ -1,19 +1,18 @@
 @mixin datos($grid) {
     width: 60%;
     border: #0a0707 solid 5px;
-    border-radius: 10%;
+    border-radius:15px;
     margin: 1%;    
-    font-family: Impact,Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
     text-align: center;
-    background-image: linear-gradient (120deg, #a1c4fd 0%, #c2e9fb 100%);
+    background-image: linear-gradient(120deg, #5D76A9 0%, #004687 100%);
     display: flex;
     flex-flow: column wrap; 
 }
 .empresa{
-    background-color: white;
+    background-color:$color-body;
     .titulo-empresa{
-        color:#00CCFF;
+        color:#ffc107;
         font-family: cursive;
         text-align: center;
         font-size: 2rem;
@@ -24,6 +23,10 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        background-color: #fdd805;
+        color: black;
+        border:black dashed 2px;
+        text-align: center;
     }
 }
 

@@ -39,7 +39,7 @@ a {
     margin-bottom: 0;
     border-radius: .25rem;
     text-align: center;
-    background-color: #00CCFF;
+    background-color: #e2ba40;
     border: #0a0707 solid 2px; }
 
 .redSoc {
@@ -64,7 +64,7 @@ a {
   z-index: 999; }
 
 .paginaContacto {
-  background-color: #595260; }
+  background-color: #393E46; }
   .paginaContacto .caja-contacto {
     width: 50%;
     color: violet;
@@ -383,7 +383,7 @@ a {
 
 header .tituloEmpresa {
   font-size: 3em;
-  color: black;
+  color: #ffa600;
   text-align: center;
   margin: 0 auto;
   animation-duration: 2s;
@@ -395,7 +395,7 @@ header .tituloEmpresa {
 
 @keyframes titulo {
   0% {
-    opacity: 0; }
+    opacity: 1; }
   50% {
     opacity: 1; }
   100% {
@@ -423,9 +423,16 @@ header .imagenLogo {
   background-size: cover;
   width: 500px;
   height: auto;
+  margin: auto;
   color: white;
-  font-size: larger;
-  font-family: monospace; }
+  font-family: monospace;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap; }
   .caja-busqueda .caja-seleccion {
     color: wheat;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -435,7 +442,7 @@ header .imagenLogo {
     justify-content: flex-start;
     align-items: center;
     align-content: center;
-    border-radius: 5%; }
+    border-radius: 5px; }
 
 aside .titulo-acce {
   padding: 2%;
@@ -492,9 +499,9 @@ aside .titulo-acce {
         transform: scale(1.1, 1.1); }
 
 .empresa {
-  background-color: white; }
+  background-color: #393E46; }
   .empresa .titulo-empresa {
-    color: #00CCFF;
+    color: #ffc107;
     font-family: cursive;
     text-align: center;
     font-size: 2rem; }
@@ -503,7 +510,11 @@ aside .titulo-acce {
     font-family: monospace;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    background-color: #fdd805;
+    color: black;
+    border: black dashed 2px;
+    text-align: center; }
 
 .datosEmpresa {
   height: 30%;
@@ -527,34 +538,31 @@ aside .titulo-acce {
     .datosEmpresa .datos .datos1 {
       width: 60%;
       border: #0a0707 solid 5px;
-      border-radius: 10%;
+      border-radius: 15px;
       margin: 1%;
-      font-family: Impact,Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       font-style: italic;
       text-align: center;
-      background-image: linear-gradient 120deg, #a1c4fd 0%, #c2e9fb 100%;
+      background-image: linear-gradient(120deg, #5D76A9 0%, #004687 100%);
       display: flex;
       flex-flow: column wrap; }
     .datosEmpresa .datos .datos2 {
       width: 60%;
       border: #0a0707 solid 5px;
-      border-radius: 10%;
+      border-radius: 15px;
       margin: 1%;
-      font-family: Impact,Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       font-style: italic;
       text-align: center;
-      background-image: linear-gradient 120deg, #a1c4fd 0%, #c2e9fb 100%;
+      background-image: linear-gradient(120deg, #5D76A9 0%, #004687 100%);
       display: flex;
       flex-flow: column wrap; }
     .datosEmpresa .datos .datos3 {
       width: 60%;
       border: #0a0707 solid 5px;
-      border-radius: 10%;
+      border-radius: 15px;
       margin: 1%;
-      font-family: Impact,Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       font-style: italic;
       text-align: center;
-      background-image: linear-gradient 120deg, #a1c4fd 0%, #c2e9fb 100%;
+      background-image: linear-gradient(120deg, #5D76A9 0%, #004687 100%);
       display: flex;
       flex-flow: column wrap; }
     .datosEmpresa .datos .seccion1 {
