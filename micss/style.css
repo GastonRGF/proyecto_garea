@@ -74,10 +74,16 @@ a:active{
     background-size: cover;
     width: 500px;
     height: auto;
+    margin: auto;
     color:white;
     font-family: monospace;
-    text-align: center  ;
-    
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .caja-seleccion{
     color:wheat;
@@ -88,7 +94,7 @@ a:active{
     justify-content: flex-start;
     align-items:center;
     align-content: center;
-    border-radius: 5%;
+    border-radius: 5px;
 }
 .titulo{
     color: #ffa600;
@@ -398,6 +404,7 @@ a:active{
 /*pagina de repuestos*/
 .tituloRepuestos{
     color: #FFC107;
+    text-align: center;
 }
 .movimiento{
     transition: all 0s ease;
@@ -527,8 +534,7 @@ a:active{
         flex-wrap: wrap;
     }
     .caja-mapa{
-        width: 47rem;
-        display: inline-block;
+        width:100%;
     }
     .tituloEmpresa{
         max-width: 600px;
@@ -635,6 +641,7 @@ a:active{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        align-items: center;
     }
     .tituloEmpresa{
        max-width: 600px;
@@ -710,8 +717,7 @@ a:active{
         padding: 3%;
     }
     .caja-mapa{
-        width: 18rem;
-        display: flow-root;
+        width: 100%
         
     }
     .inicio{
