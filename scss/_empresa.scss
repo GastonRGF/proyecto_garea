@@ -10,7 +10,7 @@
     flex-flow: column wrap; 
 }
 .empresa{
-    background-color:$color-body;
+    background-color:#393E46;
     .titulo-empresa{
         color:#ffc107;
         font-family: cursive;
@@ -41,6 +41,9 @@
     grid-template-rows: repeat(1,1fr);
     grid-template-areas: 
         "datos1 datos2 datos3";
+        .datos_titulos{
+            color: aliceblue;
+        }
             .datos{
                 width: 60%;
                 border: #0a0707 solid 5px;

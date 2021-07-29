@@ -229,6 +229,9 @@ a:active{
     flex-flow: column wrap;
     
 }
+.datos_titulos{
+    color: aliceblue;
+}
 .datos1{
     grid-area: datos1;
 }
