@@ -22,8 +22,11 @@ a {
   font-family: 'Roboto Slab', serif; }
   a:active {
     color: red;
-    background-color: white;
-    border-radius: 10%; }
+    border-radius: 10%;
+    background-color: darkgrey; }
+  a:hover {
+    border-radius: 10%;
+    background-color: darkgrey; }
 
 .sizeCarousel {
   margin: 0 auto; }

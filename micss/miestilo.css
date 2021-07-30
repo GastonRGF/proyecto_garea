@@ -6,10 +6,8 @@
 }
 
 body {
-  color: black;
   font-family: 'Roboto', sans-serif;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#a8edea), to(#fed6e3));
-  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background-color:#393E46;
 }
 
 header .tituloEmpresa {
@@ -64,7 +62,6 @@ header .imagenLogo:hover {
 
 .busqueda {
   margin: 5%;
-  background-image: url(/imagenes/salto.jpg);
   background-size: cover;
   color: #0a0707;
   overflow: hidden;

@@ -23,6 +23,11 @@ a{
 a:active{
     color: red;
     border-radius: 10%;
+    background-color: darkgrey;
+}
+a:hover{
+    border-radius: 10%;
+    background-color: darkgrey;
 }
 .tituloEmpresa{
     font-size: 3em;
@@ -246,7 +251,7 @@ a:active{
     font-size: 1em;
     text-align: left;
     margin: 1%;
-    text-decoration:none
+    text-decoration:none;
 }
 /*datos de la empresa*/
 #sociales{
@@ -359,6 +364,7 @@ a:active{
 .paginaContacto{
     background-color: #393E46;
 }
+
 .caja-contacto{
     width: 50%;
     margin: 2%;
@@ -367,6 +373,7 @@ a:active{
     border: aliceblue 2px dashed;
 }
 .btn_consulta{
+    color: black;
     animation-duration: 2s;
     animation-name:consulta;
     animation-iteration-count: infinite;
