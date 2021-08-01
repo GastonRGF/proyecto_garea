@@ -22,11 +22,9 @@ a{
     font-family: 'Roboto Slab', serif;
     &:active{
         color: red;
-        border-radius: 10%;
-        background-color: darkgrey;
     } 
     &:hover{
-        border-radius: 10%;
+        border-radius: 10px;
         background-color: darkgrey;
     }
 }
