@@ -30,13 +30,7 @@ header .tituloEmpresa {
           flex-flow: row wrap;
 }
 
-header h1 {
-  position: absolute;
-}
 
-header h1:hover {
-  color: darkgrey;
-}
 
 header .imagenLogo {
   width: 300px;
