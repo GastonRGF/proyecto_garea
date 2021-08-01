@@ -73,7 +73,7 @@ a:hover{
     transform: scale(1.1,1.1);
 }
 .caja-busqueda{
-    background-image:url(../imagenes/img_motos/kawasaki_zx10r.jpg);
+    background-image: url(../imagenes/img_motos/hondacbr1000r.jpg);
     background-size: cover;
     width: 500px;
     height: auto;
@@ -313,6 +313,7 @@ a:hover{
     flex-wrap: wrap;
     border-radius: 15px;
 }
+
 .redSoc{
     margin: 2%;
     padding: 1%;
