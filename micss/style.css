@@ -562,10 +562,7 @@ a:hover{
      }
      .caja-logos{
         max-width: 500px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: stretch;
+        display: contents
     }
      .caja2-logos{
         max-width: 500px;
