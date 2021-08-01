@@ -534,6 +534,7 @@ a:hover{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        align-content: center;
     }
     .caja-mapa{
         width:100%;
