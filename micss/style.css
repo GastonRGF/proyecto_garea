@@ -21,12 +21,12 @@ a{
     font-family: 'Roboto Slab', serif;
 }
 a:active{
-    color: red;
+    color:red
     
 }
 a:hover{
     border-radius: 10px;
-    background-color: darkgrey;
+    color:white;
 }
 .tituloEmpresa{
     font-size: 3em;

@@ -32,7 +32,7 @@ a:active {
 
 a:hover {
   border-radius: 10px;
-  background-color: darkgrey;
+  color: white;
 }
 
 .sizeCarousel {
