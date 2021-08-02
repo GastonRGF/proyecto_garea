@@ -75,29 +75,52 @@ a{
 //pagina de contacto//
 .paginaContacto{
     background-color:#393E46;
-        .caja-contacto{
-        width: 50%;
-        color: violet;
+    .sub-contacto{
+        margin: 2%;
+        width: 80%;
+        color: black;
+        background-color: #fdd805;
+        font-size: 1.5rem;
+        border: black 3px solid;
+        font-family:monospace;
         text-align: center;
-        border-radius: 60%;
-        border: violet 2px dashed;
-        .btn_consulta{
-            animation-duration: 2s;
-            animation-name:consulta;
-            animation-iteration-count: infinite;
-            @keyframes consulta{
-                0%  {
-                    opacity: 5;
-                        }
-                50%     {
-                        opacity: 1;
-                        }
-                100%    {   opacity: 0;
-            
-                        }                    
+        .registro{
+            background-color: aliceblue;
+             border: 3px black solid;
+             .estilo-campos{
+                color: black;
+                font-size:x-large;
+                font-family: monospace;
+                .campo-relleno{
+                    color: white;
+                    background-color: #004687;
+                }
             }
         }
-        .modal-footer{
+        .caja-contacto{
+            width: 50%;
+            color: violet;
+            text-align: center;
+            border-radius: 60%;
+            border: violet 2px dashed;
+            .btn_consulta{
+                animation-duration: 2s;
+                animation-name:consulta;
+                animation-iteration-count: infinite;
+                @keyframes consulta{
+                    0%  {
+                        opacity: 5;
+                            }
+                    50%     {
+                            opacity: 1;
+                            }
+                    100%    {   opacity: 0;
+                
+                            }                    
+                }
+            }
+    }
+    .modal-footer{
             display: flex;
             flex-wrap: wrap;
             flex-shrink: 0;

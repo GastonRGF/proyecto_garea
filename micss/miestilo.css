@@ -89,7 +89,34 @@ a:hover {
   background-color: #393E46;
 }
 
-.paginaContacto .caja-contacto {
+.paginaContacto .sub-contacto {
+  margin: 2%;
+  width: 80%;
+  color: black;
+  background-color: #fdd805;
+  font-size: 1.5rem;
+  border: black 3px solid;
+  font-family: monospace;
+  text-align: center;
+}
+
+.paginaContacto .sub-contacto .registro {
+  background-color: aliceblue;
+  border: 3px black solid;
+}
+
+.paginaContacto .sub-contacto .registro .estilo-campos {
+  color: black;
+  font-size: x-large;
+  font-family: monospace;
+}
+
+.paginaContacto .sub-contacto .registro .estilo-campos .campo-relleno {
+  color: white;
+  background-color: #004687;
+}
+
+.paginaContacto .sub-contacto .caja-contacto {
   width: 50%;
   color: violet;
   text-align: center;
@@ -97,7 +124,7 @@ a:hover {
   border: violet 2px dashed;
 }
 
-.paginaContacto .caja-contacto .btn_consulta {
+.paginaContacto .sub-contacto .caja-contacto .btn_consulta {
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
   -webkit-animation-name: consulta;
@@ -130,7 +157,7 @@ a:hover {
   }
 }
 
-.paginaContacto .caja-contacto .modal-footer {
+.paginaContacto .sub-contacto .modal-footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
