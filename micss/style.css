@@ -439,7 +439,11 @@ a:hover{
     transform: scale(1.2,1.2);
 }
 /*pagina de repuestos*/
-
+.propio{
+    color: white;
+    font-size: medium;
+    text-align: start;
+}
 /* medias query*/
 @media only screen and (max-width: 769px) {
     .datosEmpresa {

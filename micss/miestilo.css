@@ -35,6 +35,12 @@ a:hover {
   color: white;
 }
 
+.propio {
+  color: white;
+  font-size: medium;
+  text-align: start;
+}
+
 .sizeCarousel {
   margin: 0 auto;
 }
