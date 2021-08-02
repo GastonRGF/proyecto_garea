@@ -368,9 +368,11 @@ a:hover{
 .caja-contacto{
     width: 50%;
     margin: 2%;
-    color: rgb(255, 182, 255);
+    background-color: #fdd805;
+    color:black;
     text-align: center;
-    border: aliceblue 2px dashed;
+    border: black 2px dashed;
+    font-family: monospace;
 }
 .btn_consulta{
     color: black;
@@ -401,7 +403,31 @@ a:hover{
     border-bottom-left-radius: calc(.3rem - 1px);
     align-content: stretch;
 }
+.sub-contacto{
+    margin: 2%;
+    width: 80%;
+    color: black;
+    background-color: #fdd805;
+    font-size: 1.5rem;
+    border: black 3px solid;
+    font-family:monospace;
+    text-align: center;
+}
+.registro{
+   background-color: aliceblue;
+    border: 3px black solid;
 
+    
+}
+.estilo-campos{
+    color: black;
+    font-size:x-large;
+    font-family: monospace;
+}
+.campo-relleno{
+    color: white;
+    background-color: #004687;
+}
 /*pagina de contacto*/
 /*pagina de repuestos*/
 .tituloRepuestos{
@@ -521,9 +547,9 @@ a:hover{
      .caja-contacto{
          width: 50%;
          margin: 2%;
-         color: royalblue;
+         color: black;
          text-align: center;
-         border: #f12c2c 2px solid;
+         border: black 2px solid;
          font-size: unset;
          font-family: monospace;
      }
@@ -628,9 +654,9 @@ a:hover{
      .caja-contacto{
          width: 50%;
          margin: 2%;
-         color: royalblue;
+         color: black;
          text-align: center;
-         border: #f12c2c 2px solid;
+         border: black 2px solid;
          font-size: unset;
          font-family: monospace;
      }
@@ -759,9 +785,9 @@ a:hover{
     .caja-contacto{
         width: 50%;
         margin: 2%;
-        color: royalblue;
+        color: black;
         text-align: center;
-        border: #f12c2c 2px solid;
+        border: black 2px solid;
         font-size: unset;
         font-family: monospace;
     }
